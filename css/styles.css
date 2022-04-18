@@ -12,6 +12,8 @@ img {
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
@@ -22,9 +24,10 @@ img {
   outline: 1px solid tomato;
 }
 
-.header {
+/* ----------HEADER---------- */
+
+.nav {
   padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .header-logo {
@@ -33,6 +36,7 @@ img {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+
   color: #2196f3;
 }
 
@@ -45,6 +49,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
   color: #212121;
 }
 
@@ -62,6 +67,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
   color: #757575;
 }
 
@@ -81,23 +87,32 @@ img {
   color: #2196f3;
 }
 
+/* ----------HERO---------- */
+
 .hero {
+  text-align: center;
   background-color: #2f303a;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .hero-top-text {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  padding-top: 200px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
   color: #ffffff;
 }
 
 .hero-btn {
+  padding: 10px 32px;
+
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -106,73 +121,106 @@ img {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+
   color: #ffffff;
   background: #2196f3;
   cursor: pointer;
+  border-radius: 4px;
+  display: inline-block;
 }
 
+/* ----------MAIN---------- */
+
 .main {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .main-top-text {
+  margin-top: 0;
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
   color: #212121;
 }
 
 .main-text {
+  margin-top: 0;
+  margin-bottom: 0;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
   color: #757575;
 }
 
+/* ----------PICTURE---------- */
+
 .picture-top-text {
+  margin-top: 0;
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+
   color: #212121;
-  padding-bottom: 50px;
 }
+
+/* ----------AUTHOR---------- */
 
 .author {
   background-color: #f5f4fa;
 }
 
 .author-top-text {
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding-top: 94px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+
   color: #212121;
-  padding-top: 94px;
-  padding-bottom: 50px;
 }
 
 .author-desc {
+  margin-top: 0;
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+
   color: #212121;
 }
 
 .author-text {
+  margin-top: 0;
+  margin-bottom: 0;
+
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+
   color: #757575;
 }
+
+/* ----------FOOTER---------- */
 
 .footer {
   background-color: #2f303a;
@@ -184,6 +232,7 @@ img {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+
   color: #2196f3;
 }
 
@@ -199,6 +248,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
   color: #ffffff;
 }
 
@@ -207,8 +257,11 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
   color: rgba(255, 255, 255, 0.6);
 }
+
+/* ----------PORTFOLIO---------- */
 
 .button-btn {
   font-family: inherit;
@@ -217,6 +270,7 @@ img {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
+
   color: #212121;
   background-color: #f5f4fa;
   cursor: pointer;
@@ -235,6 +289,7 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
   color: #212121;
 }
 
@@ -242,5 +297,6 @@ img {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+
   color: #757575;
 }
