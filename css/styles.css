@@ -27,7 +27,11 @@ img {
 /* ----------HEADER---------- */
 
 .nav {
-  padding-top: 24px;
+  display: flex;
+}
+
+.header-navi {
+  display: flex;
 }
 
 .header-logo {
@@ -44,7 +48,21 @@ img {
   color: #212121;
 }
 
+.header-list {
+  display: flex;
+}
+
+.header-item {
+  background-color: tomato;
+  margin-right: 50px;
+}
+
+.header-item:last-child {
+  margin-right: 0;
+}
+
 .header-link {
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -59,6 +77,10 @@ img {
 
 .header-link:focus {
   color: #2196f3;
+}
+
+.header-list-contacts {
+  display: flex;
 }
 
 .header-mail,
