@@ -26,6 +26,16 @@ img {
 
 /* ----------HEADER---------- */
 
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-navi {
+  display: flex;
+  align-items: center;
+}
+
 .header-logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -71,6 +81,7 @@ img {
 
 .header-list-contacts {
   display: flex;
+  align-items: center;
 }
 
 .header-mail,
