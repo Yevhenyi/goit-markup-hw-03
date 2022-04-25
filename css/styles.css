@@ -37,6 +37,7 @@ img {
 }
 
 .header-logo {
+  margin-right: 93px;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -52,6 +53,7 @@ img {
 
 .header-list {
   display: flex;
+  align-items: center;
 }
 
 .header-item {
@@ -80,6 +82,7 @@ img {
 }
 
 .header-list-contacts {
+  margin-left: auto;
   display: flex;
   align-items: center;
 }
@@ -123,19 +126,19 @@ img {
   margin-top: 0px;
   margin-bottom: 30px;
   padding-top: 200px;
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
+  text-align: center;
   color: #ffffff;
 }
 
 .hero-btn {
-  padding: 10px 32px;
-
+  margin-bottom: 200px;
+  width: 200px;
+  height: 50px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -144,7 +147,6 @@ img {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
   color: #ffffff;
   background: #2196f3;
   cursor: pointer;
@@ -154,13 +156,26 @@ img {
 
 /* ----------MAIN---------- */
 
+.main-list {
+  display: flex;
+}
+
+.main-item {
+  margin-right: 30px;
+  margin-bottom: 94px;
+}
+
+.main-item:last-child {
+  margin-right: 0;
+}
+
 .main {
   padding-top: 0;
   padding-bottom: 0;
 }
 
 .main-top-text {
-  margin-top: 0;
+  margin-top: 94px;
   margin-bottom: 10px;
 
   font-weight: 700;
@@ -185,10 +200,23 @@ img {
 
 /* ----------PICTURE---------- */
 
+.picture-list {
+  display: flex;
+}
+
+.picture-item {
+  margin-right: 30px;
+  margin-bottom: 94px;
+}
+
+.picture-item:last-child {
+  margin-right: 0;
+}
+
 .picture-top-text {
+  padding-top: 94px;
   margin-top: 0;
   margin-bottom: 50px;
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -199,6 +227,19 @@ img {
 }
 
 /* ----------AUTHOR---------- */
+
+.author-list {
+  display: flex;
+}
+
+.author-item {
+  margin-right: 30px;
+  margin-bottom: 94px;
+}
+
+.author-item:last-child {
+  margin-right: 0;
+}
 
 .author {
   background-color: #f5f4fa;
@@ -285,6 +326,23 @@ img {
 }
 
 /* ----------PORTFOLIO---------- */
+
+.button-list {
+  display: flex;
+}
+
+.projects-list {
+  display: flex;
+  margin-left: -30px;
+  margin-bottom: -30px;
+  flex-wrap: wrap;
+}
+
+.projects-item {
+  flex-basis: calc((100% - 90px) / 3);
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
 
 .button-btn {
   font-family: inherit;
