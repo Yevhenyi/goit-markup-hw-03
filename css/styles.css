@@ -345,16 +345,22 @@ img {
 }
 
 .button-btn {
+  margin-right: 8px;
+}
+
+.button-btn {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #212121;
   background-color: #f5f4fa;
   cursor: pointer;
+  display: inline-block;
+  align-items: center;
+  border-radius: 4px;
 }
 
 .button-btn:hover {
@@ -370,7 +376,6 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-
   color: #212121;
 }
 
@@ -378,6 +383,5 @@ img {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-
   color: #757575;
 }
