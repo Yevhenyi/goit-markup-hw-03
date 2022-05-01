@@ -139,10 +139,7 @@ img {
 }
 
 .hero-btn {
-  padding-top: 10px;
-  padding-right: 32px;
-  padding-bottom: 10px;
-  padding-left: 32px;
+  padding: 10px 32px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -178,7 +175,7 @@ img {
 }
 
 .main-top-text {
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -397,7 +394,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
-  margin: 0px;
+  margin: 0;
   margin-bottom: 4px;
 }
 
@@ -406,7 +403,7 @@ img {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: #757575;
-  margin: 0px;
+  margin: 0;
 }
 
 .current {
